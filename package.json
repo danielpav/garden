@@ -1,0 +1,16 @@
+{
+  "name": "garden",
+  "version": "1.0.0",
+  "description": "garden stats",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "dp",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "geojson": "^0.5.0"
+  }
+}

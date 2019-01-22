@@ -1,0 +1,64 @@
+{
+  "type": "FeatureCollection",
+  "features": [{
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates":[ 312, 52 ]
+    },
+    "properties": {
+      "ph": [{"01/09/2018": 7.5}],
+      "plants": [{"name": "Cabbage", "planted": "Fall 2018'", "yields": []}],
+      "amendments": [{"sulfur":[{"~1 cup": "Fall 2018"}]}]
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates":[ 330, 55 ]
+    },
+    "properties": {
+      "ph": [{"01/09/2018": 7.0}],
+      "plants": [{"name": "Cabbage", "planted": "Fall 2018'", "yields": []}],
+      "amendments": [{"sulfur":[{"~1 cup": "Fall 2018"}]}]
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates":[ 366, 58 ]
+    },
+    "properties": {
+      "ph": [{"01/09/2018": 7.0}],
+      "plants": [{"name": "Cabbage", "planted": "Fall 2018'", "yields": []}],
+      "amendments": [{"sulfur":[{"~1 cup": "Fall 2018"}]}]
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates":[ 384, 60 ]
+    },
+    "properties": {
+      "ph": [{"01/09/2018": 6.75}],
+      "plants": [{"name": "Cabbage", "planted": "Fall 2018'", "yields": []}],
+      "amendments": [{"sulfur":[{"~1 cup": "Fall 2018"}]}]
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates":[ 402, 60 ]
+    },
+    "properties": {
+      "ph": [{"01/09/2018": 7.5}],
+      "plants": [{"name": "Cabbage", "planted": "Fall 2018'", "yields": []}],
+      "amendments": [{"sulfur":[{"~1 cup": "Fall 2018"}]}]
+    }
+  }]
+
+}

@@ -1,0 +1,46 @@
+<head>
+  <script type="text/javascript">
+    function loadXMLDoc() {
+      var xmlhttp = new XMLHTTPRequest();
+
+      xmlttp.onreadystatechange = function)() {
+        if (xmlhttp.readyState == XMLHTTPRequest.DONE) {
+          if (xmlhttpstatus == 200) {
+            document.getElementById("form1").innerHTML = xmlhttp.responseText;
+          }
+          else if (xmlhttp.status == 400) {
+            alert('There was an error 400');
+          }
+          else {
+            alert('something else other than 200 was returned');
+          }
+        }
+      };
+
+      xmlhttp.open("GET", "ajax_info.txt, true");
+      xmlhttp.send();
+    }
+
+  </script>
+</head>
+<body>
+Create a feature
+<form id="form1">
+  x coord:<input type="text" name="x"><br>
+  y coord:<input type="text" name="y"><br>
+  Feature name:<input type="text" name="feature"><br>
+  <input type="button" onclick=loadXmLDoc><br>
+</form>
+<br>
+
+Add a measurement
+<form id="form2">
+  x coord:<input type="text" name="x"><br>
+  y coord:<input type="text" name="y"><br>
+  ph:<input type="text" name="ph" value=""><br>
+  moisture:<input type="text" name="moisture" value=""><br>
+</form>
+<br>
+
+
+</body>
